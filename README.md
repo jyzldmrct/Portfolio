@@ -9,7 +9,7 @@ Learn more about me, my background, and my interests.
 
 ### Projects
 Explore some of the projects I've worked on, including:
-- **TravelBuddy**: A travel planning app.
+- **JetSetGo**: A travel planning app.
 - **WeatherForecast**: A weather app providing real-time updates.
 - **PASADA**: A public transportation app for Angeles City.
 - **LabWatch**: An AI-driven lab management app.
