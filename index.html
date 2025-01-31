@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - JD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jayzel's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="photo-holder">
+                    <img src="path/to/your/photo.jpg" alt="Jayzel's Photo" class="profile-photo">
+                </div>
+                <p>
+                    Hello! I am <b>Jayzel</b>. I love designing for web and mobile platforms, focusing on creating seamless and engaging user experiences. My passion lies in crafting intuitive and visually stunning designs that bring ideas to life while keeping users at the heart of every project. Whether it's a sleek mobile app or a dynamic website, I enjoy turning creative visions into reality.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3><a href="https://github.com/jayzeld/Margot_System">Margot Database System</a></h3>
+                        <p>An efficient database management system designed to handle large datasets with ease for Barangay Margot.</p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="https://github.com/jyzldmrct/Activity_2">BattleChronicles</a></h3>
+                        <p>A text-based RPG game that immerses players in a fantasy world, featuring engaging
+                            character development, and strategic gameplay
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="https://github.com/jyzldmrct/Navigation-Drawer">QuoteVault</a></h3>
+                        <p>A quotes generator app that offers a collection of quotes across four
+                            categories: Love, Inspirational, Motivational, and Favorites.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="https://github.com/jyzldmrct/YahtzeeActivity">DiceMaster</a></h3>
+                        <p>A fun dice game that evaluates your rolls with various outcomes, including pairs, three-of-a-kind, and straights.</p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="https://github.com/jyzldmrct/RealmActivity">PetPal</a></h3>
+                        <p>A pet management app that allows users to adopt, track, and manage pets, with features to assign owners and find forever homes.</p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="https://github.com/jyzldmrct/JetSetGo">JetSetGo</a></h3>
+                        <p>A travel app that helps users plan and record their trips, including hotel reservations,
+                            itinerary management, and budget tracking.</p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="https://github.com/jyzldmrct/Weather_App">WeatherForecast</a></h3>
+                        <p>A weather app that provides real-time weather updates, and forecasts for users worldwide.</p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="https://github.com/pjgrspe/ProjectACART">PASADA</a></h3>
+                        <p>A public transportation app that helps commuters navigate Angeles City efficiently.</p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="">LabWatch</a></h3>
+                        <p>An AI-driven lab management app designed to monitor lab conditions, ensuring safety and effective disaster response through intelligent alerts.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-category">
+                    <h3>Software Development</h3>
+                    <ul>
+                        <li><i class="fab fa-android"></i>Kotlin</li>
+                        <li><i class="fas fa-database"></i>Firebase, Realm, MySQL</li>
+                        <li><i class="fab fa-git-alt"></i>GitHub</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i>HTML, CSS, JavaScript</li>
+                        <li><i class="fab fa-bootstrap"></i>ASP.NET, Bootstrap, Compose Jetpack</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Hardware Skills</h3>
+                    <ul>
+                        <li><i class="fas fa-microchip"></i>Arduino</li>
+                        <li><i class="fas fa-project-diagram"></i>Multisim</li>
+                        <li><i class="fas fa-microchip"></i> Embedded Systems</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form" action="#" method="post">
+                    <label for="name" class="label">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+                <div id="form-response"></div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/jayzeeeeel/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/jyzldmrct" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/jyzldmrct/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:jayzeldimarucut03@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="container">
+            <p1>&copy; 2025 JD. All rights reserved.</p1>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="contact-form.js"></script>
+
+</body>
+</html>
